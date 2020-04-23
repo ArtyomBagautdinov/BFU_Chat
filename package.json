@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ArtyomBagautdinov/BFU_Chat/issues"
   },
-  "homepage": "https://github.com/ArtyomBagautdinov/BFU_Chat#readme"
+  "homepage": "https://github.com/ArtyomBagautdinov/BFU_Chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
