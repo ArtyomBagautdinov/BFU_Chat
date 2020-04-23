@@ -1,0 +1,19 @@
+{
+  "name": "bfu_chat",
+  "version": "1.0.0",
+  "description": "\"Laboratornaya - Chat\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtyomBagautdinov/BFU_Chat.git"
+  },
+  "author": "Third_Primats_Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtyomBagautdinov/BFU_Chat/issues"
+  },
+  "homepage": "https://github.com/ArtyomBagautdinov/BFU_Chat#readme"
+}
