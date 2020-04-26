@@ -1,23 +1,20 @@
 {
-  "name": "bfu_chat",
+  "name": "chatcord",
   "version": "1.0.0",
-  "description": "\"Laboratornaya - Chat\"",
-  "main": "index.js",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
   "scripts": {
-    "test": "start"
+    "start": "node server",
+    "dev": "nodemon server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ArtyomBagautdinov/BFU_Chat.git"
-  },
-  "author": "Third_Primats_Team",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ArtyomBagautdinov/BFU_Chat/issues"
-  },
-  "homepage": "https://github.com/ArtyomBagautdinov/BFU_Chat#readme",
+  "author": "Brad Traversy",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
+    "moment": "^2.24.0",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
